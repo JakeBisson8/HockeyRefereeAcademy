@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "2f13551eccc65e2096ce460621938115",
+    "revision": "6d2bbbee241a254e7e6d73daab541329",
     "url": "/HockeyRefereeAcademy/index.html"
   },
   {
@@ -16,8 +16,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/HockeyRefereeAcademy/static/js/2.c1a96329.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "616a02282446efe9da01",
-    "url": "/HockeyRefereeAcademy/static/js/main.312dfef3.chunk.js"
+    "revision": "91030ba19355e29340f7",
+    "url": "/HockeyRefereeAcademy/static/js/main.9816fb83.chunk.js"
   },
   {
     "revision": "26a1e73430b87d709779",
