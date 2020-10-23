@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/HockeyRefereeAcademy/precache-manifest.6d43e7fbf175158107d9ec7066cfcc72.js"
+  "/HockeyRefereeAcademy/precache-manifest.28868a50a682da41461dc383f1fc5da0.js"
 );
 
 self.addEventListener('message', (event) => {
