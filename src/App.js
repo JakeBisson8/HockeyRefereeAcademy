@@ -30,7 +30,7 @@ function App() {
         <header className="App-header">
           
         </header>
-        <div className="text-right mx-3"><GrLanguage className="mr-2"/><Link to="/FR" onClick={updateLangFr} className="text-danger" style={pointer}>Fr</Link> | <Link to="/" onClick={updateLangEng} className="text-danger" style={pointer}>Eng</Link></div>
+        <div className="text-right mx-3"><GrLanguage className="mr-2"/><Link to="/HockeyRefereeAcademy/FR" onClick={updateLangFr} className="text-danger" style={pointer}>Fr</Link> | <Link to="/HockeyRefereeAcademy" onClick={updateLangEng} className="text-danger" style={pointer}>Eng</Link></div>
         {showEnglish ? <Navigation /> : <NavigationFR />}
         <footer className="app-footer my-5">
           <p className="lead text-center">Website designed and developed by Jake Bisson</p> 

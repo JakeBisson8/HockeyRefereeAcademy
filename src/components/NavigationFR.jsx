@@ -25,32 +25,32 @@ export default function NavigationFR() {
                 <Navbar.Toggle aria-controls="basic-navbar-nav" />
                 <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="ml-auto">
-                    <Link to="/FR" className="text-danger text-decoration-none nav-link pr-4">Accueil</Link>
-                    <Link to="/coursesFR" className="text-danger text-decoration-none nav-link pr-4">Cours</Link>
-                    <Link to="/videosFR" className="text-danger text-decoration-none nav-link pr-4">Vidéos</Link>
-                    <Link to="/aboutFR" className="text-danger text-decoration-none nav-link pr-4">À propos</Link>
-                    <Link to="/contactusFR" className="text-danger text-decoration-none nav-link pr-4">Nous contacter</Link>
-                    <Link to="/registerFR" className="btn btn-md btn-danger text-white nav-link">S'inscrire maintenant</Link>
+                    <Link to="/HockeyRefereeAcademy/FR" className="text-danger text-decoration-none nav-link pr-4">Accueil</Link>
+                    <Link to="/HockeyRefereeAcademy/coursesFR" className="text-danger text-decoration-none nav-link pr-4">Cours</Link>
+                    <Link to="/HockeyRefereeAcademy/videosFR" className="text-danger text-decoration-none nav-link pr-4">Vidéos</Link>
+                    <Link to="/HockeyRefereeAcademy/aboutFR" className="text-danger text-decoration-none nav-link pr-4">À propos</Link>
+                    <Link to="/HockeyRefereeAcademy/contactusFR" className="text-danger text-decoration-none nav-link pr-4">Nous contacter</Link>
+                    <Link to="/HockeyRefereeAcademy/registerFR" className="btn btn-md btn-danger text-white nav-link">S'inscrire maintenant</Link>
                 </Nav> 
                 </Navbar.Collapse>
             </Navbar>
             <Switch>
-                <Route exact path="/FR">
+                <Route exact path="/HockeyRefereeAcademy/FR">
                     <HomeFR />
                 </Route>
-                <Route path="/coursesFR">
+                <Route path="/HockeyRefereeAcademy/coursesFR">
                     <CoursesFR />
                 </Route>
-                <Route path="/videosFR">
+                <Route path="/HockeyRefereeAcademy/videosFR">
                     <VideosFR />
                 </Route>
-                <Route path="/aboutFR">
+                <Route path="/HockeyRefereeAcademy/aboutFR">
                     <AboutFR />
                 </Route>
-                <Route path="/contactusFR">
+                <Route path="/HockeyRefereeAcademy/contactusFR">
                     <ContactUsFR />
                 </Route>
-                <Route path="/registerFR">
+                <Route path="/HockeyRefereeAcademy/registerFR">
                     <RegisterFR />
                 </Route>
             </Switch>
